@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block heading %}forms html{% endblock %}
+   
+{% block body %}
+
+
+<h1>hello wajaht </h1>
+   
+   
+<form action="{{ url_for('david') }}"  method="post">
+
+<input type="text" name="box1">
+<button>  submit</button>
+
+
+
+</form>
+    {% endblock %}
