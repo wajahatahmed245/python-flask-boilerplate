@@ -11,7 +11,9 @@ app=Flask(__name__)
 @app.route("/")
 def index():
     T=['hello',3.7,8]
-    return jsonify(T)
+    W=['nkn',22,222]
+    t=(55,33,22,11)
+    return jsonify(T,W,t)
 
 
 #when user open site / or open slash the function below it executes
